@@ -73,7 +73,6 @@ html{
 	position:absolute;
 	top:50%;
 	left:-80px;
-	-webkit-transform:rotate(-90deg);
 	background:white;
 	padding:10px;
 	border-top-left-radius:10px;
@@ -82,6 +81,11 @@ html{
 	font-size:22px;  
 	z-index:998;
 	cursor:pointer;
+	
+	-webkit-transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	-o-transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg);
 
 }
 
