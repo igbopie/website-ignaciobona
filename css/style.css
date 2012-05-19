@@ -35,6 +35,18 @@ html{
 	margin:0px;
 	padding:0px;	
 }
+/* COMMENTS*/
+#comments{
+	position:fixed;
+	top:0px;
+	height:100%;
+	z-index:999;
+	right:0px;
+	background:white;
+	
+}
+
+
 /* BEGIN SOCIAL */
 .social{
 	margin:0px;
