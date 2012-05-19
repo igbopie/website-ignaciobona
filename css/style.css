@@ -44,24 +44,19 @@ html{
 	z-index:999;
 	right:0px;
 	background:white;
-	
 	box-shadow: 0 -2px 5px rgb(0,0,0);
-	
-	
 	
 }
 #comments-thread{
 	overflow-x: hidden;
 	overflow-y: auto;
 	width:auto;
-	
 	height:100%;
 	
 }
 #comments-thread-child{
 	width:400px;
 	margin-left:10px;	
-	margin-top:10px;
 	height:100%;
 	overflow:auto;
 	
