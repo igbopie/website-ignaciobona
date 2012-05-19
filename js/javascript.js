@@ -74,7 +74,7 @@ function showHideComments(){
 		 	},250,function(){
 			
 				$('#comments').animate({
-						width:400
+						width:420
 			  		}, 1000,function(){ 
 						$('#comments-title').animate({
 								left:-80
