@@ -40,12 +40,42 @@ html{
 	position:fixed;
 	top:0px;
 	height:100%;
+	width:0px;
 	z-index:999;
 	right:0px;
 	background:white;
 	
+	box-shadow: 0 -2px 5px rgb(0,0,0);
+	
+	
+	
+	
 }
+#comments-thread{
+	overflow: hidden;
+	width:auto;
+	
+}
+#comments-thread-child{
+	width:400px;
+	margin-left:10px;	
+	margin-top:10px;
+}
+#comments-title{
+	position:absolute;
+	top:50%;
+	left:-80px;
+	-webkit-transform:rotate(-90deg);
+	background:white;
+	padding:10px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	box-shadow: 0 -1px 2px rgb(0,0,0);
+	font-size:22px;  
+	z-index:998;
+	cursor:pointer;
 
+}
 
 /* BEGIN SOCIAL */
 .social{

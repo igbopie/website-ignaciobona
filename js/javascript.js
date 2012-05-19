@@ -1,6 +1,8 @@
 var lastScroll=0;
 var docViewTop;
 var dif;
+var isCommentsVisible=false;
+
 
 $(window).scroll( function() {
 	
@@ -47,6 +49,42 @@ function moveText(elem,vel,min,max,offset,top){
 		$(elem).css("top",number+"px");
 	}
 	
+}
+
+function showHideComments(){
+	if(isCommentsVisible){
+		// hide	
+		$('#comments-title').animate({
+				left:-33
+		 	},250,function(){
+			
+				$('#comments').animate({
+						width:0
+			  		}, 1000,function(){ 
+						$('#comments-title').animate({
+								left:-80
+							},1000);
+				});
+		  });
+		isCommentsVisible = false;
+	} else {
+		// show	
+		$('#comments-title').animate({
+				left:-33
+		 	},250,function(){
+			
+				$('#comments').animate({
+						width:400
+			  		}, 1000,function(){ 
+						$('#comments-title').animate({
+								left:-80
+							},1000);
+				});
+		  });
+		  
+		
+		isCommentsVisible = true;
+	}
 }
 
 
