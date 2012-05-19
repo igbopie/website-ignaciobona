@@ -1,0 +1,213 @@
+h1.title{	
+	font-family: 'Anton', sans-serif;
+	font-size:110px; 
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:0px;
+	text-transform:uppercase;
+	font-weight:normal;
+}
+
+.wrapper{
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;	
+}
+.header{
+	overflow:auto;
+	background:white;
+	position:relative;
+	z-index:200;
+}
+.body{
+	min-height:400px;	
+	padding-bottom:20px;
+	position:relative;
+}
+body{
+	font-family:  'Gochi Hand', sans-serif;
+	background:#ffffff;
+	margin:0px;
+	padding:0px;
+	min-width:960px;
+}
+html{
+	margin:0px;
+	padding:0px;	
+}
+/* BEGIN SOCIAL */
+.social{
+	margin:0px;
+	padding:0px;	
+	list-style:none;
+}
+.social li a{
+	display:block;
+	width:50px;
+	height:50px;
+	background:url(../img/socialicons.png);
+	float:left;
+	color:transparent;
+	margin-left:28px;
+	margin-right:28px;
+}
+.social li.twitter a{
+	background-position: -50px 0px;	
+}
+.social li.twitter a:hover{
+	background-position: -50px -50px;	
+}
+.social li.linkedin a{
+	background-position: -150px 0px;	
+}
+.social li.linkedin a:hover{
+	background-position: -150px -50px;	
+}
+.social li.facebook a{
+	background-position: 0px 0px;	
+}
+.social li.facebook a:hover{
+	background-position: 0px -50px;	
+}
+.social li.googleplus a{
+	background-position: -350px 0px;	
+}
+.social li.googleplus a:hover{
+	background-position: -350px -50px;	
+}
+.social li.skype a{
+	background-position: -100px 0px;	
+}
+.social li.skype a:hover{
+	background-position: -100px -50px;	
+}
+.social li.stackoverflow a{
+	background-position: -250px 0px;	
+}
+.social li.stackoverflow a:hover{
+	background-position: -250px -50px;	
+}
+.social li.github a:hover{
+	background-position: -400px -50px;	
+}
+.social li.github a{
+	background-position: -400px 0px;	
+}
+.social li.pinterest a:hover{
+	background-position: -200px -50px;	
+}
+.social li.pinterest a{
+	background-position: -200px 0px;	
+}
+.social li.youtube a:hover{
+	background-position: -300px -50px;	
+}
+.social li.youtube a{
+	background-position: -300px 0px;	
+}
+
+/* END SOCIAL */
+
+.code{
+	font-family: 'Gochi Hand', cursive;
+	position:absolute;
+	top:240px;
+	color:white;
+	left:30px;
+	font-size:40px;
+	line-height:100px;
+}
+.code2{
+	font-size:40px;	
+}
+.theword{
+	text-shadow:  1px 1px black;
+	color:#FFE11E;
+}
+
+.yellow{
+	text-shadow:  1px 1px black;
+	color:#FFE11E;
+}
+
+.body img{
+	border-radius:10px;	
+}
+
+
+.part{
+	min-width:960px;
+	height:1000px;	
+	position:relative;
+	background:white;
+	z-index:300;
+}
+
+.profile{
+	height:600px;
+	
+}
+.desktop{
+	top:0px;
+	position:absolute;
+	z-index: 200;
+	height:600px;
+	width:100%;
+	background: url(../img/desktop.png) repeat-x fixed center -360px;
+		
+}
+.profile-text{
+	position: relative;
+	z-index: 200;
+	width:500px;
+	left:10px;
+	top:58.5px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.book{
+	z-index:100;
+	background: url(../img/book.jpg) repeat-x fixed center -220px;
+}
+.book-text{
+	position:fixed;
+	top:190px;
+	width:270px;	
+	z-index:-1;
+	left:50%;
+	line-height:19px;
+	font-size:18px;
+}
+.book-code{
+	font-family:monaco;
+	font-size:9px;	
+	
+	line-height:19px;
+	
+}
+.book-code-reserved{
+	color:#800056;	
+}
+.book-code-string{
+	color:#2700ff;	
+}
+.opinator-text{
+	
+	position: absolute;
+	z-index: 200;
+	height: 100%;
+	left:20px;
+	top:20px;
+	margin-left:auto;
+	
+	margin-right:auto;
+}
+.opinator-logo{
+	position: absolute;
+	z-index: 200;
+	height: 100%;
+	width: 100%;
+	background:url(../img/opinator_logo.png) 30% 0px no-repeat fixed;
+	background-position: 35% -10px;
+}
