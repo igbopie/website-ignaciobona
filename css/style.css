@@ -63,7 +63,11 @@ html{
 	margin-left:10px;	
 	margin-top:10px;
 	height:100%;
-	ovrflow:auto;
+	overflow:auto;
+	
+}
+#comments-thread-child div,#comments-thread-child p{
+	font-family:normal 14px/1.5em Georgia, serif;
 }
 #comments-title{
 	position:absolute;
