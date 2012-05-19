@@ -46,13 +46,14 @@ html{
 	background:white;
 	
 	box-shadow: 0 -2px 5px rgb(0,0,0);
-	
+	overflow-y: auto;
 	
 	
 	
 }
 #comments-thread{
-	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: auto;
 	width:auto;
 	
 }
