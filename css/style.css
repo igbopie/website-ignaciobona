@@ -229,7 +229,7 @@ html{
 	font-size:18px;
 }
 .book-code{
-	font-family:monaco;
+	font-family: monaco, consolas ;
 	font-size:9px;	
 	
 	line-height:19px;
