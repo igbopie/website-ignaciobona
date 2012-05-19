@@ -46,7 +46,6 @@ html{
 	background:white;
 	
 	box-shadow: 0 -2px 5px rgb(0,0,0);
-	overflow-y: auto;
 	
 	
 	
@@ -56,11 +55,15 @@ html{
 	overflow-y: auto;
 	width:auto;
 	
+	height:100%;
+	
 }
 #comments-thread-child{
 	width:400px;
 	margin-left:10px;	
 	margin-top:10px;
+	height:100%;
+	ovrflow:auto;
 }
 #comments-title{
 	position:absolute;
