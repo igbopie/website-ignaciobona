@@ -14,9 +14,13 @@ $(window).scroll( function() {
 });
 
 function scroll(){
-	move(".opinator-logo",2,"27%",-200);
 	
-	move(".profile",-.5,"center",320);
+	
+	move(".desktop",-.2,"center",-320);
+	
+	move(".mobile-bg",1.5,"27%",-500);
+	
+	//move(".opinator-logo",2,"27%",-200);
 }
 
 function move(elem,vel,left,offset){
@@ -89,5 +93,16 @@ function showHideComments(){
 
 
 $().ready(function(){
+	$(  ".part"  ).css("height",window.innerHeight);
+ 	$(  ".height-aware"  ).css("height",window.innerHeight);
+
 	$(  ".theword"  ).airport( ['music', 'coding', 'user interfaces', 'design' , 'photography' , 'films' , 'tv shows' , 'android' , 'iphone' , 'google','apple'] );
 });
+
+$(window).resize(function() {
+ $(  ".part"  ).css("height",window.innerHeight);
+ 
+ $(  ".height-aware"  ).css("height",window.innerHeight);
+
+});
+  
