@@ -1,0 +1,158 @@
+h1.title{	
+	font-family: 'Poiret One', cursive;
+	font-size:70px;
+	margin-top:20px;
+	margin-bottom:0px;
+	font-weight:normal;
+	color:#444;
+	display:inline;
+
+}
+.title-container{
+	float:left;
+}
+h1,h2{
+	
+	text-align:center;
+}
+
+h2{
+margin-top: 4px; 
+font-size: 25px;
+}
+.wrapper{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;	
+}
+.header{
+	overflow:auto;
+	background:white;
+	position:relative;
+	z-index:200;
+	margin-top: 24px;
+}
+.body{
+	min-height:400px;	
+	padding-bottom:0px;
+	position:relative;
+	}
+body{
+	font-family:  'Gochi Hand', sans-serif;
+	background:#ffffff;
+	margin:0px;
+	padding:0px;
+	min-width:960px;
+	overflow-y: visible;
+
+}
+html{
+	margin:0px;
+	padding:0px;	
+}
+/* BEGIN SOCIAL */
+.social{
+	width: 1025px;
+	text-align: center;
+	margin:0px;
+	padding:0px;	
+	list-style:none;
+	overflow: auto;
+	margin-left:auto;
+	margin-right:auto;	
+	display: block;	
+}
+.social li {
+	overflow: auto;
+	float:left;
+}
+.social li a{
+margin-top: 25px;
+	display:block;
+	width:50px;
+	height:50px;
+	background:url(../img/socialicons.png);
+	
+	color:transparent;
+	margin-left:28px;
+	margin-right:28px;
+	
+}
+.social li.twitter a{
+	background-position: -50px 0px;	
+}
+.social li.twitter a:hover{
+	background-position: -50px -50px;	
+}
+.social li.linkedin a{
+	background-position: -150px 0px;	
+}
+.social li.linkedin a:hover{
+	background-position: -150px -50px;	
+}
+.social li.facebook a{
+	background-position: 0px 0px;	
+}
+.social li.facebook a:hover{
+	background-position: 0px -50px;	
+}
+.social li.googleplus a{
+	background-position: -350px 0px;	
+}
+.social li.googleplus a:hover{
+	background-position: -350px -50px;	
+}
+.social li.skype a{
+	background-position: -100px 0px;	
+}
+.social li.skype a:hover{
+	background-position: -100px -50px;	
+}
+.social li.stackoverflow a{
+	background-position: -250px 0px;	
+}
+.social li.stackoverflow a:hover{
+	background-position: -250px -50px;	
+}
+.social li.github a:hover{
+	background-position: -400px -50px;	
+}
+.social li.github a{
+	background-position: -400px 0px;	
+}
+.social li.pinterest a:hover{
+	background-position: -200px -50px;	
+}
+.social li.pinterest a{
+	background-position: -200px 0px;	
+}
+.social li.youtube a:hover{
+	background-position: -300px -50px;	
+}
+.social li.youtube a{
+	background-position: -300px 0px;	
+}
+.iframe-screen{
+	/*border-radius:10px;
+	border:10px black solid;
+	background: black;*/
+	overflow: auto;
+	background: url("../img/desktop2.png") center  top no-repeat;
+	width:100%;
+	height:650px;
+	position: fixed;
+	
+	
+}
+
+iframe{
+	border:none;
+	position:absolute;
+	z-index: -1;
+	left:50%;
+	margin-left: -281px;
+	width:578px;
+	top: 60px;
+	height: 324px;
+}
+
