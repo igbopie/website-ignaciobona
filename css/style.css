@@ -6,7 +6,7 @@ h1.title{
 	font-weight:normal;
 	color:#444;
 	display:inline;
-
+	
 }
 .title-container{
 	float:left;
@@ -21,7 +21,7 @@ margin-top: 4px;
 font-size: 25px;
 }
 .wrapper{
-	width:100%;
+	width:900px;
 	margin-left:auto;
 	margin-right:auto;	
 }
@@ -52,7 +52,6 @@ html{
 }
 /* BEGIN SOCIAL */
 .social{
-	width: 1025px;
 	text-align: center;
 	margin:0px;
 	padding:0px;	
@@ -74,8 +73,8 @@ margin-top: 25px;
 	background:url(../img/socialicons.png);
 	
 	color:transparent;
-	margin-left:28px;
-	margin-right:28px;
+	margin-left:0px;
+	margin-right:16px;
 	
 }
 .social li.twitter a{
@@ -154,5 +153,23 @@ iframe{
 	width:578px;
 	top: 60px;
 	height: 324px;
+}
+
+.rounded-me{
+	width: 400px;
+	height: auto;
+	border-radius: 200px;
+}
+
+.left{
+	float:left;
+	width: 400px;
+}
+.right{
+
+	margin-left: 20px;
+
+	float:right;
+	width: 480px;
 }
 
