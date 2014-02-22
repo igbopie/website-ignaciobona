@@ -1,5 +1,5 @@
 Ignacio Bona website
 ==================
-ignaciobona.com
+http://www.ignaciobona.com
 
 
